@@ -1,4 +1,9 @@
-import { AboutSection, HeroSection } from '../collections';
+import {
+  AboutSection,
+  ContactSection,
+  HeroSection,
+  Projects,
+} from '../collections';
 
 export default function Home() {
   return (
@@ -9,6 +14,14 @@ export default function Home() {
 
       <section>
         <AboutSection />
+      </section>
+
+      <section>
+        <Projects />
+      </section>
+
+      <section>
+        <ContactSection />
       </section>
     </div>
   );

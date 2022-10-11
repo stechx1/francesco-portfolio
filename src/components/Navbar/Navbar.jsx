@@ -1,3 +1,5 @@
+import { Button } from '../Button';
+
 /* eslint-disable @next/next/no-img-element */
 export const Navbar = () => {
   return (
@@ -33,7 +35,7 @@ export const Navbar = () => {
           </svg>
         </button>
         <div className='hidden w-full md:block md:w-auto' id='navbar-default'>
-          <ul className='flex flex-col p-4 mt-4 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0'>
+          <ul className='flex flex-col p-4 mt-4 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 items-center'>
             <li>
               <a
                 href='#'
@@ -66,13 +68,8 @@ export const Navbar = () => {
                 Contact
               </a>
             </li>
-            <li className='border-2 border-primary px-3 py-1'>
-              <a
-                href='#'
-                className='block pr-4 pl-3 text-primary rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-primary md:p-0'
-              >
-                Resume
-              </a>
+            <li>
+              <Button>Resume</Button>
             </li>
           </ul>
         </div>

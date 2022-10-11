@@ -11,7 +11,7 @@ module.exports = {
         primary: '#60D1F5',
       },
       fontFamily: {
-        sans: ["'Open Sans', sans-serif"],
+        sans: ["'Poppins', sans-serif"],
       },
     },
   },

@@ -3,8 +3,8 @@ export const HeroSection = () => {
   return (
     <div className='h-[70vh] flex justify-between items-center'>
       <div className='flex flex-col space-y-2'>
-        <h1 className='text-5xl text-white'>Francesco Aliatis</h1>
-        <h1 className='text-primary text-5xl'>Data Analytics</h1>
+        <h1 className='text-5xl font-bold text-white'>Francesco Aliatis</h1>
+        <h1 className='text-primary font-bold text-5xl'>Data Analytics</h1>
         <p className="text-white max-w-sm">
           I am a data analyst specializing in processing, cleaning, analyzing
           and build dashboard from data to interpret and identify key insights

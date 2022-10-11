@@ -10,6 +10,9 @@ module.exports = {
       colors: {
         primary: '#60D1F5',
       },
+      fontFamily: {
+        sans: ["'Open Sans', sans-serif"],
+      },
     },
   },
   plugins: [],
